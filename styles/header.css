@@ -1,0 +1,56 @@
+.train-gif {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.navbar.fixed-top {
+  background-color: #343a40; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: backgroun-color 0.3s ease;
+
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item.show .nav-link {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.dropdown-menu {
+  background-color: #343a40 !important;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  margin-top: 0;
+
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white !important;
+}
+
+  /*for the toggler icon on smaller screens*/
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+body {
+  padding-top: 56px; /* Adjusted for fixed navbar height */
+  background-color: #bee3db; 
+  color: #343a40;
+}
+
+

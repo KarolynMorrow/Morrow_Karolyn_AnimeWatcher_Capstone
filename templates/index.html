@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/header.css">
+
+    <title>Home</title>
+</head>
+<body>
+    <img src="/templates/images/42315511_MotionElements_anime-a-nostalgic-train-journey-along-a-picturesqu-vimage.gif" class="train-gif" alt="Anime Train Journey">
+
+    <!--Navigation Bar Start-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signIn.html">Sign In / Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="animeBrowser.html">Anime Browser</a>
+          </li>
+        </ul>         
+    </nav>
+    <!--Navigation Bar End-->
+<br>
+
+<div class="container mt-4">
+  <div id="index-error-message" class="alert alert-danger d-none" role="alert" style="display: none;">
+    An error occurred while loading the page. Please try again later.
+</div>
+
+<div class="container mt-4">
+    <h1 class="spotlight-title">Spotlight</h1>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8">
+        <div class="spotlight d-md-flex align-items-center">
+          <img class="img-fluid mr-md-4 mb-3 mb-md-0" style="width: 12rem;" id="spotlight-img" alt="Solo Leveling Image">
+          <div class="spotlight-description">
+            <h2>Featured Anime</h2>
+            <h2 id="spotlight-anime-title">Solo Leveling</h2>
+            <p class="revealed-content initial-hidden" id="spotlight-synopsis"><span class="hidden-text"></span></p>
+            <button type="button" class="btn btn-primary reveal-button" id="spotlightRevealBtn">Reveal More >></button>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+
+    <h1 class="most-watched-title">Most Watched</h1>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-col-lg-4 g-4" id="most-watched-list">
+
+    </div>
+    <!-- <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-col-lg-4 g-4">
+      <div class="col mb-4">
+        <div class="most-watched-item">
+            <img class="img-fluid mr-3" src="/templates/images/OnePiece.jpeg" alt="One Piece">
+            <div class="most-watched-description">
+                <h3>One Piece</h3>
+                <p>This is a brief description of the featured movie. It highlights the main plot and key elements that make it interesting.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="most-watched-item">
+            <img class="img-fluid mr-3" src="/templates/images/DemonSlayer.jpg" alt="Demon Slayer">
+            <div class="most-watched-description">
+                <h3>Demon Slayer</h3>
+            <p>This is a brief description of the featured movie. It highlights the main plot and key elements that make it interesting.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="most-watched-item">
+            <img class="img-fluid mr-3" src="/templates/images/HunterXHunter.jpg" alt="Hunter X Hunter">
+            <div class="most-watched-description">
+                <h3>Hunter X Hunter</h3>
+                <p>This is a brief description of the featured movie. It highlights the main plot and key elements that make it interesting.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="most-watched-item">
+            <img class="img-fluid mr-3" src="/templates/images/DragonBall.png" alt="Dragon Ball Z">
+            <div class="most-watched-description">
+                <h3>Dragon Ball Z</h3>
+                <p>This is a brief description of the featured movie. It highlights the main plot and key elements that make it interesting.</p>
+            </div>
+        </div>
+    </div>
+  </div> -->
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/script/index.js"></script>
+  
+</body>
+</html>

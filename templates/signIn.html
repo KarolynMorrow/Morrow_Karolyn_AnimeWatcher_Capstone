@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/signIn.css">
+    <link rel="stylesheet" href="/styles/header.css">
+
+    <title>Sign In/Sign Up</title>
+
+
+</head>
+<body>
+    <img src="/templates/images/42315511_MotionElements_anime-a-nostalgic-train-journey-along-a-picturesqu-vimage.gif" class="train-gif" alt="Anime Train Journey">
+
+    <!--Navigation Bar Starts-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="animeBrowser.html">Anime Browser</a>
+          </li>
+        </ul>         
+    </nav>
+<br>
+
+    <!--Navigation Bar Ends-->
+
+    <!--Sign In/Sign Up start-->
+    <div class="container my-5 flex-grid-1 d-flex flex-column justify-content-center align-items-center">
+
+        <div class="card p-4 my-3 form-card">
+            <div class="card-body">
+                <h2 class="card-title text-center mb-4" id="form-title">Log In</h2>
+                <form id="signin-form">
+                    <div class="form-group">
+                        <label for="signin-username">Username:</label>
+                        <input type="text" class="form-control" id="signin-username" name="username"> <!--will add required later-->
+                    </div>
+                    <div class="form-group">
+                        <label for="signin-password">Password:</label>
+                        <input type="password" class="form-control" id="signin-password" name="password"> <!--will add required later-->
+                    </div>
+                    <button type="submit" class="btn btn-info">Log In</button>
+                </form>
+                <form id="signup-form">
+                    <h2 class="card-title text-center mb-4">Sign Up</h2>
+                    <div class="form-group">
+                        <label for="signup-username">Username:</label>
+                        <input type="text" class="form-control" id="signup-username" name="username"> <!--will add required later-->
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-password">Password:</label>
+                        <input type="password" class="form-control" id="signup-password" name="password"> <!--will add required later-->
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" class="form-control" id="confirm-password" name="confirm-password"> <!--will add required later-->
+                    </div>
+                    <button type="submit" class="btn btn-info">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="container">
+        <h1>Log In</h1>
+        <form class="signin-form">
+            <label for="username">Username:</label>
+            <input type="text" id="signin-username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <h1>Sign Up</h1>
+        <form class="signup-form">
+            <label for="username">Username:</label>
+            <input type="text" id="signup-username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div> -->
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
